@@ -1,0 +1,128 @@
+/* Import Open Sans font from Google Font */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Write your CSS Code here */
+
+.pricing_table {
+    background: #61A9FE;
+    padding: 80px;
+}
+
+.pricing_table_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 40px 0px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: -3px 4px 110px -31px rgba(122, 105, 105, 0.75);
+    -webkit-box-shadow: -3px 4px 110px -31px rgba(122, 105, 105, 0.75);
+    -moz-box-shadow: -3px 4px 110px -31px rgba(122, 105, 105, 0.75);
+}
+
+.pricing_table_single_item {
+    border-right: 1px solid #EEF2F4;
+}
+
+.container {
+    max-width: 1240px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.pricing_table_single_item {
+    text-align: center;
+    color: #61A9FE;
+    padding: 50px 80px;
+}
+
+.pricing_table_single_item {}
+
+.pricing_img {
+    margin-bottom: 50px;
+}
+
+.pricing_img img {
+    width: 260px;
+    /* border-right: 1px solid black; */
+}
+
+.pricing_img p {
+    color: #989698;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.pricing_title {}
+
+.pricing_title h2 {
+    font-size: 16px;
+    padding: 20px 0px;
+    /* border: 1px solid green; */
+    border-bottom: 1px solid #EEF2F4;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.pricing_title h1 {
+    color: #0670EE;
+    font-size: 39px;
+    padding: 31px 0px;
+    display: block;
+}
+
+.pricing_btn {}
+
+.pricing_btn a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #61A9FE;
+    padding: 9px 40px;
+    border-radius: 7px;
+    color: #61A9FE;
+    transition: linear 0.5s;
+    -webkit-transition: linear 0.5s;
+    -moz-transition: linear 0.5s;
+    -ms-transition: linear 0.5s;
+    -o-transition: linear 0.5s;
+}
+
+.pricing_btn a:hover {
+    background-color: #61A9FE;
+    border: 1px solid #61A9FE;
+    color: white;
+}
+
+.pricing_table_single_item:nth-child(3) {
+    border-right: 0px;
+}
+
+.custom_title {
+    border-top: 1px solid #EEF2F4
+}
